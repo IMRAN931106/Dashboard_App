@@ -1,0 +1,55 @@
+.container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+}
+.main {
+    background-color: #ffff;
+    color: #0000;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+    width: 600px;
+    border-radius: 15px;
+    height: 360px;
+    position: relative;
+    top: 90px;
+
+}
+.cross {
+width: 23;
+height: 23;
+padding: 6px;
+position: absolute;
+top: 25px;
+right: 25px;
+cursor: pointer;
+border-radius: 50%;
+background-color: #F19120;
+transition: transform .2s ease-in-out;
+}
+.cross:hover {
+    transform: scale(1.1);
+}
+.content_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.loginFail {
+    color: #F19120;
+    font-size: 28px;
+    font-weight: bold;
+}
+.errorMessage {
+    color: #474747;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-right: 45%;
+}

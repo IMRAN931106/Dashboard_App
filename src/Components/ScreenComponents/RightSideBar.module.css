@@ -1,0 +1,43 @@
+.bigBox {
+    min-width: 336px;
+    height: 247px;
+    border-radius: 10px;
+    background-color: #F8991D;
+    position: relative;
+    /* top: 88px; */
+    margin-top: 88px;
+}
+.circle {
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   background-color: rgba(217, 217, 217, 0.5);
+   position: absolute;
+   top: 23px;
+}
+.leftCircle {
+   right: 24px;
+}
+.rightCircle {
+   right: 45px;
+}
+.text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    left: 32px;
+    bottom: 71px;
+}
+.rupeeText {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.rupeeParent {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 24px;
+    left: 32px;
+}

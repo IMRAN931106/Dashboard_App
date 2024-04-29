@@ -1,0 +1,23 @@
+.deviceMsg {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .app {
+    display: none;
+  }
+  .deviceMsg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+}
+@media screen and (min-width: 1940px) {
+  .deviceMsg {
+    display: block;
+  }
+  .app {
+    display: none;
+  }
+}

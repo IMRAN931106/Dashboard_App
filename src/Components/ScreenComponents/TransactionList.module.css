@@ -1,0 +1,69 @@
+.container {
+    margin-top: 64px;
+    width: 100%;
+    padding: 32px;
+}
+.parentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerText {
+    font-size: 16px;
+    font-weight: bold;
+    color: #474747;
+}
+.see_all_button {
+    cursor: pointer;
+    color: #F8991D;
+    font-size: 16px;
+    font-weight: bold;
+}
+.listIcon {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #F8991D;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.mainList {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nameNsubline {
+    margin-left: 11px;
+}
+.name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #474747;
+}
+.subline {
+    font-size: 10px;
+    font-weight: 400;
+    color: #F8991D;
+}
+.price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #474747;
+}
+.rupeeIconParent {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 6px;
+
+}
+.rupeeIcon {
+    margin-right: 4px;
+}
+.date {
+    font-size: 10px;
+    font-weight: 400;
+    color: #F8991D;
+}

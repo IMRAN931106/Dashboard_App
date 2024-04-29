@@ -1,0 +1,144 @@
+/* keyfream animation define
+@keyframes moveUpDown {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: translate(0, 5px);
+  }
+  40% {
+    transform: translate(0, -5px);
+  }
+  60% {
+    transform: rotate(-20deg);
+  }
+  80%,
+  100% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+} */
+
+.container {
+  position: relative;
+  overflow: scroll;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* logo css */
+.parentLogo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 11px;
+}
+.logoImg {
+  width: 87px;
+  height: 90px;
+  /* animation: moveUpDown 1.5s ease-in-out infinite; */
+}
+.glono_text {
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  left: -8px;
+  top: 4px;
+}
+
+/* list css */
+.parentList {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  top: 63px;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.parentList ul li {
+  padding: 10px 0px 10px 34px;
+}
+.margin_left {
+  margin-left: 20px;
+}
+.navLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between;
+}
+.navLink_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.active {
+    color: #F8991D;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #F4E6D5;
+  border-radius: 50%;
+  left: 14px;
+  position: relative;
+}
+.small_circle {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background: #ffff;
+  top: 11px;
+  left: 8px;
+  border-radius: 50%;
+  transition: top 0.5s ease;
+}
+
+/* login css */
+/* .logoutContainer {
+  border-top: 1px solid #4747472e;
+}
+.logout {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 22px;
+  align-items: center;
+  padding: 15px 20px;
+}
+.logout svg {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.logout:hover svg {
+  transform: translateX(10px);
+}
+.logout:focus,
+.logout:active,
+.logout:hover {
+  outline: none;
+  text-decoration: none;
+  color: #f19120;
+  font-weight: 600;
+}
+.dropList {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.arrow {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+} */

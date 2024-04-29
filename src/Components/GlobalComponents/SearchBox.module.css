@@ -1,0 +1,15 @@
+.search_box {
+    transition: border 0.2s ease-in-out;
+}
+.search_box::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #47474778;
+}
+.search_box:hover,
+.search_box:focus ,
+.search_box:active{
+    border: 2px solid #F8991D;
+}
