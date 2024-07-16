@@ -34,7 +34,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/Dashboard_App" element={<Layout />}>
           {/* Public Routes */}
           <Route path="/login" element={<Login />} />
 
