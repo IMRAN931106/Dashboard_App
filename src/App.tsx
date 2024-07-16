@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./App.css";
 import { QueryClient, QueryClientProvider } from "react-query";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout, RequireAuth } from "./Components";
 import {
   AovAnalysisPage,
@@ -33,7 +33,8 @@ const queryClient = new QueryClient({
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Routes>
+      <BrowserRouter basename="/Dashboard_App">
+      {/* <Routes> */}
         <Route path="/" element={<Layout />}>
           {/* Public Routes */}
           <Route path="/login" element={<Login />} />
@@ -61,7 +62,8 @@ function App() {
           {/* Catch All */}
           <Route path="*" element={<NotFoundPage />} />
         </Route>
-      </Routes>
+      {/* </Routes> */}
+      </BrowserRouter>
     </QueryClientProvider>
   );
 }
